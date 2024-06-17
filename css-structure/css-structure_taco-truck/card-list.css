@@ -1,0 +1,16 @@
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat();
+  list-style: none;
+  background-color: var(--main-bg);
+}
+
+ul {
+  list-style: none;
+}
+
+h2 {
+  background-color: var(--main-title-bg);
+  padding: 8px;
+}
