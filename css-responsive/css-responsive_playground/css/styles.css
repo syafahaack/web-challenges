@@ -62,32 +62,47 @@ h1 {
 .box--one {
   background-color: lightblue;
 
-  width: 100%;
+  width: 100;
   height: 100px;
 }
 
-@media screen and (min-width: 600px), (min-width: 1200px) {
-  main {
-    flex-direction: row;
-  }
+.box--two {
+  background-color: lightgreen;
 
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 600px) {
   .box--two {
-    background-color: lightgreen;
+    width: 200px;
+  }
+}
 
+@media (min-width: 1200px) {
+  .box--two {
+    width: 400px;
+  }
+}
+
+.box--three {
+  background-color: lightpink;
+
+  width: 50px;
+  height: 250px;
+}
+@media screen and (orientation: landscape) {
+  .box--three {
     width: 100px;
     height: 100px;
   }
 }
 
-@media {
-  orientation: landscape)
-  
-.box--three {
-    background-color: lightpink;
+.box--four {
+  background-color: lightgray;
 
-    width: 50px;
-    height: 250px;
-  }
+  width: 100px;
+  height: 100px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -103,7 +118,6 @@ h1 {
   width: 100%;
 }
 
-@media screen (min.width: 600px){.box--five img {
-background-image (img scr="./img/cat_medium.jpg")
-}
+.box--five img {
+  width: 100%;
 }
