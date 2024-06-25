@@ -9,30 +9,29 @@
     <title>Personal Profile Form</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
-  <header>
-    <h1>Create your Personal Profile</h1>
-  </header>
-
   <body>
-    <form aria-labelledby="title" aria-describedby="description">
+    <header>
+      <h1 id="title">Create your Personal Profile</h1>
+    </header>
 
-    <p id="description">
+    <form aria-labelledby="title">
+
+    <p>
           We want to get to know you! Please enter your personal information.
       </p>
      
 
         <fieldset>
           <legend>Personal Information</legend>
-          <label for="input-name">First Name:</label>
-          <input id="input-name" type="text" minlength="4" required />
-          <label for="input-name">Last Name:</label>
-          <input id="input-name" type="text" minlength="4" required />
+          <label for="first-name">First Name:</label>
+          <input id="first-name" type="text" minlength="4" required />
+          <label for="last-name">Last Name:</label>
+          <input id="last-name" type="text" minlength="4" required />
           <label for="birthday">Your Birthday</label>
           <input id="birthday" type="date" required />
         </fieldset>
 
-        <p id="description">
+        <p>
           Can you tell us a little bit more? We want to annoy you with unwanted
           ads
         </p>
