@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="mystyle.css" />
+    <title>My Homepage</title>
+  </head>
+  <body>
+    <header>
+      <h1> The Aurora Seeker</h1>
+      
+      </p>
+      <p>Welcome to my website</p>
+      <nav>
+        <a href="#experience">Home</a>
+        <a href="#about">Galley</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2 id="experience">My Experience</h2>
+        <p>I have worked for the following partners:</p>
+        <ul>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="skills">My Skills</h2>
+        <p>I have the following skills:</p>
+        <ul>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ul>
+      </section>
+      <section>
+        <h2 id="contact">Contact</h2>
+        <p>Reach out at <a href="mailto:jane@doe.com">my e-mail address</a>.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 myself</p>
+    </footer>
+  </body>
+</html>
+    
